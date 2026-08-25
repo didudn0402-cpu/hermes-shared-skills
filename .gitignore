@@ -1,0 +1,33 @@
+# Credentials & secrets — NEVER commit
+auth.json
+.env
+.env.EXAMPLE
+
+# Runtime databases & state
+state.db
+state.db-shm
+state.db-wal
+*.pid
+*.lock
+
+# User data — NEVER commit
+memories/
+sessions/
+logs/
+plans/
+workspace/
+home/
+
+# Caches
+image_cache/
+audio_cache/
+cache/
+
+# Checkpoints & backups
+checkpoints/
+backups/
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc

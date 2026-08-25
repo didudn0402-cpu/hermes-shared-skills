@@ -1,0 +1,5 @@
+name: hermes-shared-skills
+version: 1.0.0
+description: "Shared skills for Hyun's Hermes bots"
+hermes_requires: ">=0.12.0"
+author: "Hyun"
